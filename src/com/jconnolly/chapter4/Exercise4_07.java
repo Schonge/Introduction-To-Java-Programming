@@ -21,7 +21,7 @@ public class Exercise4_07 {
 		
 		double newTuition = tuition;
 		double totalTuition = newTuition;
-		for(int j = 0; j < 4; j++) {
+		for(int j = 1; j < 4; j++) {
 			newTuition += newTuition * yearlyIncreaseRate;
 			totalTuition += newTuition;
 		}

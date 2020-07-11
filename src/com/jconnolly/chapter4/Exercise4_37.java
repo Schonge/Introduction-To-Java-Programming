@@ -16,16 +16,17 @@ public class Exercise4_37 {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a decimal integer: ");
 		int decimal = input.nextInt();
+		int number = decimal;
 		
 		String binary = "";
 		int count = 0;
 		while(decimal > 0 || count % 4 != 0 || count == 0) {
 			binary = (decimal % 2) + binary;
-			decimal /=2 ;
+			decimal /= 2 ;
 			count++;
 		}
 		
-		System.out.println("The binary representation of " + decimal + " is " + binary);
+		System.out.println("The binary representation of " + number + " is " + binary);
 
 	}
 

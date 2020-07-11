@@ -28,7 +28,7 @@ public class Exercise3_09 {
 		int d10 = ((d1 * 1) + (d2 * 2) + (d3 * 3) + (d4 * 4) + (d5 * 5)
 				+ (d6 * 6)+ (d7 * 7) + (d8 * 8) + (d9 * 9)) % 11;
 		
-		System.out.println("The ISBN with teh checksum: ");
+		System.out.println("The ISBN with the checksum: ");
 		System.out.println(d1 + "" + d2 + "" + d3 + "" + d4 + "" + d5 + ""
 				+ d6 + "" + d7 + "" + d8 + "" + d9 + "" + d10);
 	}

@@ -3,12 +3,12 @@ package com.jconnolly.chapter5;
 import java.util.Scanner;
 
 /**
- * Palindrome integer.
+ * Displaying an integer reversed.
  * @author jconnolly
  *
  */
 
-public class Exercise5_03 {
+public class Exercise5_04 {
 
 	public static void main(String[] args) {
 		
@@ -17,29 +17,23 @@ public class Exercise5_03 {
 		System.out.print("Enter a number: ");
 		int number = input.nextInt();
 		
-		System.out.print(number + " is ");
-		if(!isPalindrom(number)) {
-			System.out.print("not ");
+		if(number <= 9) {
+			System.out.println("Please provide a number greater than 9 that can be reversed!");
+		} else {
+			System.out.print(number + " reversed is ");
+			reverse(number);
 		}
-		System.out.println("a palindrome");
-
+		
 	}
 	
-	public static int reverse(int number) {
-		
-		if(number <= 0) {
-			return 0;
-		}
+	public static void reverse(int number) {
 		
 		String reverseNumString = "";
 		while(number > 0) {
 			reverseNumString += number % 10;
 			number = number / 10;
 		}
-		return Integer.parseInt(reverseNumString);		
+		System.out.println(reverseNumString);
 	}
 
-	public static boolean isPalindrom(int number) {
-		return number == reverse(number);
-	}
 }

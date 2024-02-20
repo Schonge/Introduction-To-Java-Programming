@@ -2,5 +2,6 @@ Question:
 Define hardware and software.
 
 Answer:
-Hardware comprises the visible physical elements of the computer.
-Software provides the invisible instructions that control the hardware and make it perform specific tasks.
+Hardware: Comprises the visible physical elements of the computer.
+
+Software: Provides the invisible instructions that control the hardware and make it perform specific tasks.

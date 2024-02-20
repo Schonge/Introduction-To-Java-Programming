@@ -1,0 +1,12 @@
+Question:
+Explain the Java keywords. List some Java keywords you learned in this chapter.
+
+Answer:
+Keywords are reserved words that have a specific meaning to the compiler and cannot be used for other purposes in the program.
+
+Keyword Examples:
+    - class
+    - public
+    - static
+    - void
+    - import

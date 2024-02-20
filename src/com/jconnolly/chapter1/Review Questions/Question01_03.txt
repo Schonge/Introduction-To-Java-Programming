@@ -1,0 +1,12 @@
+Question:
+Define machine language, assembly language and high-level programming language.
+
+Answer:
+Machine Language: A computer's native language which is a set of built in primitive instructions in the form of binary code.
+
+Assembly Language: A low-level programming language in which a mnemonic is used to represent each machne language instruction.
+    Assembler required to convert the mnemonic intruction to machine language.
+    Mnemonic: A symbolic representation of an operation code or instruction. ADD is a common one.
+
+High-Level Language: English-like and easy to learn programming language. Java is an example.
+    Requires a compiler to convert the code to machine language.

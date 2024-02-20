@@ -1,0 +1,9 @@
+Question:
+What is an operating system.
+
+Answer:
+An operating system (OS) is the most important program that runs on a computer. It manages and controls a computers activities.
+Major tasks of an OS are:
+    - Controlling and monitoring system activities.
+    - Allocating and assigning system resources.
+    - Scheduling operations.

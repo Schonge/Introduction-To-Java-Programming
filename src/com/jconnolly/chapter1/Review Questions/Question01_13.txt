@@ -1,0 +1,7 @@
+Question:
+What is the Java source filename extension, and what is the Java bytecode filename extension?
+
+Answer:
+Java Source = .java
+
+Java Bytecode = .class

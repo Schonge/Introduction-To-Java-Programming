@@ -1,0 +1,5 @@
+Question:
+Why does the System class not need to be imported?
+
+Answer:
+It is in the java.lang package which is implicitly imported in every Java program. 

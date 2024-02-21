@@ -1,0 +1,9 @@
+Question:
+Are there any performance differences between the following two import statements?
+
+import javax.swing.JOptionPane;
+import javax.swing.*;
+
+Answer:
+No there is no difference. The information is not read in at compile or runtime unless the class is used.
+The import statement just tells the compiler where to locate the classes.

@@ -1,0 +1,9 @@
+Question:
+What is the command to compile a Java program? What is the command to run a Java program?
+
+Answer:
+Run the javac command to compile a Java program with extension .java.
+e.g. javac Welcome.java
+
+Run the java command with the program name to run the Java program.
+e.g. java Welcome

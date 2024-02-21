@@ -1,0 +1,9 @@
+Question:
+What are the benefits of using constants? Declare an int constant SIZE with value 20.
+
+Answer:
+1. Don't have to repeatedly type the same value.
+2. If you have to change the constant you only need to do it in one place.
+3. A descriptive name for a constant makes the program easy to read.
+
+final int SIZE = 20;

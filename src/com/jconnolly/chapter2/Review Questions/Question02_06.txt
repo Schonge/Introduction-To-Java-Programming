@@ -1,0 +1,9 @@
+Question:
+If today is Tuesday what will be the day in 100 days?
+
+Answer:
+Get the remainder of 100 % 7 (days in a week, full weeks Tue to Tue)
+100 % 7 = 2
+Tuesday + 2 days = Thursday
+
+In 100 days it will be Thursday.

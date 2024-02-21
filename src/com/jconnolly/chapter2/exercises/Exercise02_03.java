@@ -9,7 +9,6 @@ import javax.swing.JOptionPane;
 public class Exercise02_03 {
 
     public static void main(String[] args) {
-
         String input = JOptionPane.showInputDialog(null, "Enter centimeters as an integer:",
         "Input Dialog", JOptionPane.QUESTION_MESSAGE);
 
@@ -18,7 +17,6 @@ public class Exercise02_03 {
 
         String output = "The value in inches is " + inches + ".";
         JOptionPane.showMessageDialog(null, output);
-
     }
     
 }

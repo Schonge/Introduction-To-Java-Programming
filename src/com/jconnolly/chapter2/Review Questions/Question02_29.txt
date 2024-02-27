@@ -1,0 +1,10 @@
+Question:
+Describe syntax errors, runtime errors, and logic errors.
+
+Answer:
+Syntax errors: Errors that occur during compilation. Errors in code construction.
+
+Runtime errors: Errors that cause the program to terminate abnormally. Occurs while program is running where the environment detects
+                that an operation is impossible to carry out. Input errors typicall cause runtime errors.
+
+Logic errors: Errors that occur when a program does not perform the way it was intended to.

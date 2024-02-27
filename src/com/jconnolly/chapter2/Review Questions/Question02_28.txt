@@ -1,0 +1,25 @@
+Question:
+Reformat the following program according to the programming style and documentation guidelines. Use the next line brace style:
+
+public class Test {
+    public static void main(String[] args) {
+        /** Print a line */
+        System.out.println("2 % 3 = "+2%3);
+    }
+}
+
+Answer:
+/**
+ * This class demonstrates the usage of the modulo operator.
+ */
+public class Test {
+
+    /**
+     * The main method of the program.
+     * @param args The command-line arguments passed to the program.
+     */
+    public static void main(String[] args) {
+        // Print the result of 2 % 3
+        System.out.println("2 % 3 = " + (2 % 3));
+    }
+}

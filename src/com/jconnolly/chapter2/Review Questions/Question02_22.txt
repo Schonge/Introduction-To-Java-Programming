@@ -1,0 +1,13 @@
+Question:
+Evaluate the following:
+
+int i = '1';
+int j = '1' + '2';
+int k = 'a';
+char c = 90;
+
+Answer:
+1. Takes the Unicode value of '1' which is decimal 49. i = 49.
+2. Takes the Unicode values of '1' and '2' which are decimal 49 and 50 and adds them together. j = 99.
+3. Takes the Unicode value of 'a' which is decimal 97. k = 97.
+4. Takes the integer 90 and associates it to the Unicode value 'Z'. c = Z.

@@ -1,0 +1,13 @@
+Question:
+Which of the following are correct literals for floating-point numbers?
+
+12.3, 12.3e+2, 23.4e-2, -334.4, 20, 39F, 40D
+
+Answer:
+1. 12.3 is a correct literal.
+2. 12.3e+2 is a correct scientific notation (exponential) literal.
+3. 23.4e-2 is a correct scientific notation (exponential) literal.
+4. -334.4 is a correct literal.
+5. 20 is incorrect. It is an integer.
+6. 39F is a correct literal. The F or f suffic indicates a float.
+7. 40D is incorrect. Java doesn't use the D suffix. Treated as double by default.

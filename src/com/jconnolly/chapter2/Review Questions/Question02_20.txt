@@ -1,0 +1,12 @@
+Question:
+Which of the following are correct literals for characters?
+
+'1', '\u345dE', '\u3fFa', '\b', \t
+
+Answer:
+1. A correct literal. Even though its a number it is enclosed in single quotes indicating a character.
+2. A correct literal. This is a correct Unicode escape sequence for a character. Only the first 4 hexadecimal digits are considered
+   for the Unicode value. The E is treated as a separate character.
+3. A correct literal. Same as above.
+4. A correct literal. Escape sequence for the backspace character.
+5. Not a correct literal. It is missing the the '' that denotes a character literal.

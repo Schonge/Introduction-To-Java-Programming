@@ -1,0 +1,20 @@
+Question:
+Can the following conversions involving casting be allowed? If so, find the converted result.
+
+char c = 'A';
+i = (int)c;
+
+float f = 1000.34f;
+int i = (int)f;
+
+double d = 1000.34;
+int i = (int)d;
+
+int i = 97;
+char c = (char) i;
+
+Answer:
+1. Error, i is not initialized.
+2. i becomes 1000 (Explicit Type Conversion).
+3. i becomes 1000 (Explicit Type Conversion).
+4. c becomes a (Explicit Type Conversion the integer value 97 is converted to its corresponding character value of 'a').

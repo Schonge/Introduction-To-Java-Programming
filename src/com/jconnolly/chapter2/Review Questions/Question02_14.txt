@@ -1,0 +1,32 @@
+Question:
+Identify and fix the errors in the following code:
+
+public class Test {
+    public void main (string[] args) {
+        int i;
+        int k = 100.0;
+        int j = i + 1;
+
+        System.out.println("j is " + j + " and
+            k is " + k);
+    }
+}
+
+Answer:
+Corrected code:
+
+public class Test {
+    public static void main (String[] args) {
+        int i = 0;
+        double k = 100.0;
+        int j = i + 1;
+
+        System.out.println("j is " + j + " and k is " + k);
+    }
+}
+
+Changes made:
+1. Corrected the method signature of 'main' to include static and uppercase S in String.
+2. Need to initialize int i to 0.
+3. Need to change k to a double to match the value 100.0.
+4. Corrected the format of 'System.out.println' statement.

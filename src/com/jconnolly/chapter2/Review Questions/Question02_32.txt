@@ -1,0 +1,7 @@
+Question:
+How do you convert a String to an integer? How do you convert a string to a double?
+
+Answer:
+Use Integer.parseInt(String) to convert a string to an integer.
+
+Use Double.parseDouble(String) to convert a String to a double.

@@ -1,0 +1,13 @@
+Question:
+Which of these statements are true?
+
+(a) Any expression can be used as a statement.
+(b) The expression x++ can be used as a statement.
+(c) The statement x = x + 5 is also an expression.
+(d) The statement x = y = x = 0 is illegal.
+
+Answer:
+(a) False, not all expressions can be used as statments e.g. 'x + y'
+(b) True, x++ is a valid statement. Post-increment operator.
+(c) True, x = x + 5 is both an assignment statement and an expression. Adds x + 5 to x.
+(d) False, it is legal.

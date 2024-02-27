@@ -1,0 +1,6 @@
+Question:
+Why do you have to import JOptionPane but not the Math class?
+
+Answer:
+The Math class is automatically available as it is part of the core Java API.
+JOPtionPane is provided in additional package called java.swing which needs to be imported to be used.

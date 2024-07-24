@@ -1,7 +1,0 @@
-Question:
-What is the statement to display a string on the console? What is the statement to display the message "Hello World" in a message dialog box?
-
-Answer:
-System.out.print("<insert string here>");
-
-JOptionPane.showMessageDialog(null, "Hello World");

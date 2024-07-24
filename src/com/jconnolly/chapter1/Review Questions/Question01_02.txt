@@ -1,9 +1,0 @@
-Question:
-List the main components of the computer.
-
-Answer:
-1. Central processing unit (CPU).
-2. Memory (main memory).
-3. Storage devices (e.g., disks, CDs, tapes).
-4. Input and output devices (e.g., monitors, keyboards, mice, printers).
-5. Communication devices (e.g., modems and network interface cards (NICs))

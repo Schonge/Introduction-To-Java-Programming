@@ -1,7 +1,0 @@
-Question:
-What is the result of 25 / 4? How would you rewrite the expression if you wished the result to be a floating-point number?
-
-Answer:
-6 remainder 1 (but 6 in integer format).
-
-We could write the expression as 25.0 / 4, 25 / 4.0, 25.0 / 4.0.

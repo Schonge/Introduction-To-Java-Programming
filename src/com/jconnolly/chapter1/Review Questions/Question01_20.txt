@@ -1,5 +1,0 @@
-Question:
-If a NoSuchMethodError occurs when you run a program, what is the cause of the error?
-
-Answer:
-You will receive this error if the class file being run does not have a main metho or if you mistype the main method.

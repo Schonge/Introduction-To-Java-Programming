@@ -1,5 +1,0 @@
-Question:
-What is the JVM?
-
-Answer:
-Java Virtual Machine (JVM) is responsible for executing Java bytecode which is the compilefd form of Java source code.

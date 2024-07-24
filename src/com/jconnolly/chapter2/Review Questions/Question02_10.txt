@@ -1,9 +1,0 @@
-Question:
-How would you write the following arithmetic expression in Java?
-
-4 / 3(r + 34) - 9(a + bc) + (3 + d(2 + a)) / a + bd
-
-Answer:
-a, b, c, d, r; // Intialize these variables or take them as input.
-
-double result = (4 / (3 * (r + 34))) + (9 * (a + (b * c))) + ((3 + (d * (2 + a))) / (a + (b * d)));

@@ -1,6 +1,0 @@
-Question:
-What is the relationship between Java and HTML?
-
-Answer:
-Java became initally popular because programs could be run from a Web browser in the form of applets.
-These appplets would be embeded in the HTML and provide a graphical interface for users which made the Web interactive and responsive.

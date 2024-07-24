@@ -1,8 +1,0 @@
-Question:
-What does an explicit conversion from a double to an int do with the fractional part of the double value?
-Does casting change the variable being cast?
-
-Answer:
-It discards the fractional part of the double.
-
-Casting does not change the variable being cast it creates a new value based on the target type.

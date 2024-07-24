@@ -1,7 +1,0 @@
-Question:
-What is a source program? What is a compiler?
-
-Answer:
-Source Program: A program written in a high-level language. Also referred to as source code.
-
-Compiler: A program that translates a source program into a machine language program.

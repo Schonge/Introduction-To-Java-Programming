@@ -1,9 +1,0 @@
-Question:
-Which of the following identifiers are valid? Which are Java keywords?
-
-applet, Applet, a++, --a, 4#R, $4, #44, apps, class, public, int, x, y, radius
-
-Answer:
-Valid Identifiers: applet, Applet, $4(can start with dollar sign), apps, x, y, radius.
-Invalid Identifiers: a++(contains increment operator), --a(contains decrement operator), 4#R(can't start with number), #44(can't start with pound).
-Java Keywords: class, public, int. 

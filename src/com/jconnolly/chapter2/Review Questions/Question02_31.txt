@@ -1,5 +1,0 @@
-Question:
-How do you prompt the user to enter an input using a dialog box?
-
-Answer:
-Use JOptionPane.showInputDialog() method.

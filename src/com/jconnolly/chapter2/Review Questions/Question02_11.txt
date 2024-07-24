@@ -1,7 +1,0 @@
-Question:
-Suppose m and r are integers. Write a Java expression for mr^2 to obtain a floating point result.
-
-Answer:
-int m, r;
-
-double result = (double) Math.pow(m * r, 2);

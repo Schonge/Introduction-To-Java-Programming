@@ -1,7 +1,0 @@
-Question:
-Is Java case sensitive? What is the case for Java keywords?
-
-Answer:
-Java is case sensitive.
-
-Lowercade is the case used for Java keywords.

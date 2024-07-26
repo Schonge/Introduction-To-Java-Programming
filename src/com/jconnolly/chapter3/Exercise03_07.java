@@ -49,7 +49,7 @@ public class Exercise03_07 {
         }
         if(numberOfNickels > 0) {
             if(numberOfNickels > 1) {
-                nickelsMsg = numberOfNickels + " nckels\n";
+                nickelsMsg = numberOfNickels + " nickels\n";
             } else {
                 nickelsMsg = numberOfNickels + " nickel\n";
             }

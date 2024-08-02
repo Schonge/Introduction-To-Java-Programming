@@ -29,20 +29,16 @@ public class Exercise03_19 {
         String message = "";
 
         if(input == JOptionPane.OK_OPTION) {
-            try {
-                double side1 = Double.parseDouble(sideA.getText());
-                double side2 = Double.parseDouble(sideB.getText());
-                double side3 = Double.parseDouble(sideC.getText());
+            double side1 = Double.parseDouble(sideA.getText());
+            double side2 = Double.parseDouble(sideB.getText());
+            double side3 = Double.parseDouble(sideC.getText());
 
-                if(side1 == side2 && side1 == side3) {
-                    message = "Those sides form an Equilateral Triangle.";
-                } else if(side1 != side2 && side1 != side3 && side2 != side3) {
-                    message = "Those sides form a Scalene Triangle.";
-                } else {
-                    message = "Those sides form an Isoceles Triangle.";
-                }
-            } catch (NumberFormatException e) {
-                message = "Input is invalid.";
+            if(side1 == side2 && side1 == side3) {
+                message = "Those sides form an Equilateral Triangle.";
+            } else if(side1 != side2 && side1 != side3 && side2 != side3) {
+                message = "Those sides form a Scalene Triangle.";
+            } else {
+                message = "Those sides form an Isoceles Triangle.";
             } 
         }
 

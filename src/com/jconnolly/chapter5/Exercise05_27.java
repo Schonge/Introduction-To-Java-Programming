@@ -3,19 +3,19 @@ package com.jconnolly.chapter5;
 import javax.swing.JOptionPane;
 
 /*
- * Palindromic prime.
+ * Emirp.
  */
 
-public class Exercise05_26 {
+public class Exercise05_27 {
 
     public static void main(String[] args) {
         String result = "";
         int perLineCounter = 0;
 
         for(int i = 2; perLineCounter <= 100; i++) {
-            if(isPrime(i) && isPalindrome(i)) {
-                // JOptionPane does not format the alignment for the first two rows.
-                result += String.format("%5d", i) + " ";
+            if(isEmirp(i)) {
+                // JOptionPane does not format the alignment for the first four rows.
+                result += String.format("%8d", i) + " ";
                 perLineCounter++;
 
                 if(perLineCounter % 10 == 0) {
@@ -36,8 +36,7 @@ public class Exercise05_26 {
 
         return true;
     }
-    
-    // Reverse number to check if palindrome
+
     public static int reversal(int number) {
         int result = 0;
     
@@ -49,9 +48,20 @@ public class Exercise05_26 {
     
         return result;
     }
-    
+
     public static boolean isPalindrome(int number) {
         return number == reversal(number);
+    }
+
+    public static boolean isEmirp(int number) {
+        // Check that number length is greater than 1
+        String s = String.valueOf(number);
+        if(isPrime(number) && !isPalindrome(number) && isPrime(reversal(number)) && s.length() > 1) {
+            return true;
+        } else {
+            return false;
+        }
+        
     }
 
 }
